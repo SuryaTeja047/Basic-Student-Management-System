@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center; /* Align the heading center */
+    margin-bottom: 20px;
+}
+.container {
+    width: 15%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px; /* Fixed width for the buttons */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
